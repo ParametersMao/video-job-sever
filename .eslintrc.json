@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "ignorePatterns": ["build"],
+  "extends": ["@antfu"],
+  "rules": {
+    "no-console": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "off",
+    "eslint-comments/no-unlimited-disable": "off",
+    "unused-imports/no-unused-imports": "off"
+  }
+}
